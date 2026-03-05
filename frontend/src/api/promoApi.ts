@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:8000/api/auth";
+const API = "https://api.rutnug.com/api/auth";
 
 
 export const validatePromoCode =

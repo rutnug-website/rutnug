@@ -10,7 +10,7 @@ export interface Banner {
 export async function fetchBanners(): Promise<Banner[]> {
 
   const response = await fetch(
-    "http://127.0.0.1:8000/api/auth/banners/"
+    "https://api.rutnug.com/api/auth/banners/"
   );
 
   if (!response.ok) {
